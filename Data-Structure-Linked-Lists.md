@@ -215,7 +215,7 @@ void deleteFirst()
     struct node *temp = head;
 
     // Point head to head's next
-    head = head->next;
+    head = temp->next;
 
     // Free memory used by temp
     temp = NULL:
